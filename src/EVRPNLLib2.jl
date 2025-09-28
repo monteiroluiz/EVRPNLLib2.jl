@@ -2,7 +2,7 @@ module EVRPNLLib2
 
 import Base: show
 
-export Data, Node, nn, nc, ns, loadEVRPNL, loadELRPNL
+export Data, Node, nn, nc, ns, loadEVRPNL2, loadELRPNL2
 export getTime, getTimeBySOC, findPieceByTime
 export getSOC, getSOCByTime, findPieceBySOC
 export Solution, Route, Machine
