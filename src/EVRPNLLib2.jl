@@ -1,4 +1,4 @@
-module EVRPNLLib
+module EVRPNLLib2
 
 import Base: show
 
@@ -9,7 +9,7 @@ export Solution, Route, Machine
 export addNode!, addStation!, addRoute!
 export validateSolution, writeSolution
 
-const data_path = joinpath(pkgdir(EVRPNLLib), "data")
+const data_path = joinpath(pkgdir(EVRPNLLib2), "data")
 const EPS = 1e-5
 
 using LinearAlgebra
