@@ -86,7 +86,7 @@ using EVRPNLLib2
 For example, to load instance `tc0c10s2ct1.xml`:
 
 ```julia
-data = loadEVRPNL(:tc0c10s2ct1)
+data = loadEVRPNL2(:tc0c10s2ct1)
 ```
 
 See the [full list](https://github.com/jahirllagas/EVRPNLLib.jl/tree/master/data).
