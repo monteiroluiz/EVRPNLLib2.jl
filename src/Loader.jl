@@ -1,8 +1,8 @@
-function loadEVRPNL(instance::Symbol, station_replicas::Int64 = 0)::Union{Data, Nothing}
+function loadEVRPNL2(instance::Symbol, station_replicas::Int64 = 0)::Union{Data, Nothing}
     doLoadInstance(instance, Int64[], station_replicas)
 end
 
-function loadELRPNL(instance::Symbol, station_replicas::Int64 = 0)::Union{Data, Nothing}
+function loadELRPNL2(instance::Symbol, station_replicas::Int64 = 0)::Union{Data, Nothing}
     file_name = joinpath(data_path, "elrpnl-stations.txt")
     if !isfile(file_name)
         println("File elrpnl-stations.txt not found!")
