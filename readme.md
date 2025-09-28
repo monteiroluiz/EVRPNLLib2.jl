@@ -1,4 +1,4 @@
-# EVRPNLLib.jl
+# EVRPNLLib2.jl
 
 <!-- [![Build Status](https://github.com/jahirllagas/EVRPNLLib.jl/workflows/CI/badge.svg)](https://github.com/jahirllagas/EVRPNLLib.jl/actions)
 [![Coverage](https://codecov.io/gh/jahirllagas/EVRPNLLib.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/jahirllagas/EVRPNLLib.jl) -->
@@ -78,7 +78,9 @@ end
 To install:
 
 ```julia
-] add https://github.com/jahirllagas/EVRPNLLib.jl
+] add https://github.com/monteiroluiz/EVRPNLLib2.jl
+using EVRPNLLib2
+
 ```
 
 For example, to load instance `tc0c10s2ct1.xml`:
